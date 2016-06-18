@@ -15,13 +15,20 @@ Write data to tidy.txt
 
 # Variables
 activity_labels contains data from the activity_labels.txt file in character format
+
 features contains data from the activity_labels.txt file in character format
+
 features_list contains only indices of features with mean or std in them, omiting the Angles which comprise calculations of multiple features
+
 features_names contains the names of the features that match the indices found in features_list
 
+
 train contains the data bound from X_train.txt, Y_train.txt, subject_train.txt
+
 test contains the data bound from X_test.txt, Y_test.txt, subject_test.txt
 
+
 combined_data contains the collected train and test data in a table with columns for subject, activity, and each measurement.
+
 
 combined_mean contains means of the data from test and train grouped on subject and activity with columns for subject, activity, and means of the measurements.
